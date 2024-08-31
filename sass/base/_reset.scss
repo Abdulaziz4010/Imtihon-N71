@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 85%;
+  padding: 20px 24px;
+}
+
+button {
+  cursor: pointer;
+  &:hover {
+    background-color: #a4456a;
+  }
+}
